@@ -3,7 +3,7 @@ function makeid(l) {
 	let res = "";
 	let char_list = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-	fo(let i = 0; i < l.length; i++) {
+	fo(let i = 0; i < l; i++) {
 		res += char_list.charAt(
 			Math.floor(
 				Math.random()*char_list.length;
